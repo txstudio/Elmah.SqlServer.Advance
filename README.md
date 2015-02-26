@@ -7,6 +7,13 @@ https://www.nuget.org/packages/elmah.sqlserver/</p>
 <p>只要依照 Elmah.Sqlserver 套件內容設定好應用程式<br/>
 再使用此指令碼建立相關的資料庫物件就可以使用</p>
 
+<ul>
+  <li>此資料庫指令碼為 SqlServer 使用</li>
+  <li>儲存目標依照執行預存程序的雙數與單數月份做區隔</li>
+  <li>請依照實際執行情境進行必要的程式碼異動</li>
+</ul>
+
+<br/>
 
 <h5>延伸項目</h5>
 <p>儲存目標因月份的單數與雙數而目標資料表有所不同<br/>
